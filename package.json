@@ -1,0 +1,45 @@
+{
+  "name": "emerald-clear-theme",
+  "displayName": "Emerald Clear Theme",
+  "description": "Clear emerald accents and neutral gray surfaces in coordinated light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icon.png",
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "emerald",
+    "green",
+    "teal"
+  ],
+  "galleryBanner": {
+    "color": "#1F6F5F",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/emerald-clear-theme"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Emerald Clear Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/emerald-clear-light-color-theme.json"
+      },
+      {
+        "label": "Emerald Clear Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/emerald-clear-dark-color-theme.json"
+      }
+    ]
+  }
+}
